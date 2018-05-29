@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]>         <html class="no-js lt-ie10 ie9"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js"> <!--<![endif]--><head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="google-site-verification" content="qpCweTequyrCNlcNPHwLcPazDxLKR-RaFre7cyM8afI" />
+
+<meta name="com.silverpop.brandeddomains" content="www.pages03.net,blogs.davita.com,davita.com,dev.davita.com,dialysisfinder.com,edmeasures.com,www.davita.com,www.onlineregistrationcenter.com,yourkidneys.com" />
+
+
+  <title>Entradas e Aperitivos - Kidney-Friendly Recipes - DaVita</title>
+    
+
+<!-- Overide main social tracking code -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-556773c669352af7" async="async"></script>
+
+<script src="/js/jquery/jquery-1.11.1.min.js"></script>
+
+<script src="//cdn.optimizely.com/js/246773953.js"></script>
+
+<!-- Modernizr for feature detection -->
+<script src="/js/modernizr.min.js"></script>
+
+<!-- CSS Style Sheets -->
+<link rel="stylesheet" type="text/css" href="../assets/css/bootstrap/bootstrap.min.css" >
+<link rel="stylesheet" type="text/css" href="../assets/css/global.css" />
+<link rel="stylesheet" type="text/css" href="../assets/css/global-int-reskin.css" />
+<link rel="stylesheet" type="text/css" href="../assets/css/components.css"  />
+<link rel="stylesheet" href="../assets/css/fonts/font-awesome/css/font-awesome.css" />
+
+<!-- Fonts & Icons -->
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700italic,700' rel='stylesheet' type='text/css'>
+
+<link rel="shortcut icon" href="/images/global/logos/favicon/favicon.ico" type="image/x-icon">
+<link rel="icon" href="../assets/images/global/logos/favicon/favicon.ico" type="image/x-icon">
+
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-556773c669352af7" async="async"></script>
+
+
+<!-- Page Specific Stylesheet -->
+
+<link rel="stylesheet" type="text/css" href="../assets/css/template/09-recipe-detail.css"  />
+
+
+</head>
+
+
+
+        <div class="row header-bottom">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-logo clearfix">
+                <!-- Logo -->
+                    <div class="logo pull-left">
+                        <a href="../davita-brasil" class="logo">
+              
+                              <svg class="hidden-xs hidden-sm" width="160" height="65">
+                                  <image xlink:href="../assets/images/global/logos/svg/logo-notag-blue.svg" src="/images/global/logos/logo-notag-blue.png" width="160px" height="65px" class="hidden-xs hidden-sm"></image>
+                              </svg>
+                              <svg class="hidden-md hidden-lg" width="86" height="33">
+                                  <image xlink:href="../assets/images/global/logos/svg/logo-notag.svg" src="/images/global/logos/logo-notag.png" width="86" height="33" class="hidden-md hidden-lg"></image>
+                              </svg>
+              
+                        </a>
+                    </div>
+                    <div class="pull-right visible-xs visible-sm">
+                        <button type="button" class="navbar-toggle navbar-toggle-primary collapsed fa fa-bars" data-toggle="collapse" data-target="#nav-primary">
+                            <span class="sr-only">Toggle Primary Nav</span>
+                        </button>
+                    </div>
+          
+            </div>          
+
+            <div class="col-xs-12 col-sm-12 col-md-4 col-search">
+                <div class="collapse navbar-collapse" id="nav-search">
+                    <div class="search-box pull-right">
+            
+            <a href="/br/en/">English</a> | Português           
+            
+                    </div>
+                </div> 
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-search">
+                <div class="row hidden-xs hidden-sm">    
+                    <div class="col-xs-12 group-name" style="margin-top: 58px;">
+                        <div class="services-category pull-right">
+              
+                                
+                            
+                        </div>
+                    </div>
+        </div>
+            </div>    
+
+            
+        </div>
+    </div>
+
+        
+
+<div class="content-item h-entry" style="margin-top:40px;">
+
+{% if not hero_image_name %}
+    <div class="content-title text-center">
+        {% include 'partials/blog/title.html.twig' with {title_level: 'h2'} %}
+        {% if page.header.subtitle %}
+        <h3 >{{ page.header.subtitle }}</h3>
+        {% endif %}
+        {% include 'partials/blog/date.html.twig' %}
+        {% include 'partials/blog/taxonomy.html.twig' %}
+    </div>
+{% endif %}
+
+    <div class="e-content">
+        {{ page.content }}
+    </div>
+
+    {% if page.header.continue_link is sameas(true) and config.plugins.comments.enabled %}
+        {% include 'partials/comments.html.twig' %}
+    {% endif %}
+
+
+</div>
+
+<p class="prev-next text-center">
+
+
+    {% if not page.isLast %}
+            <a class="btn" href="{{ page.prevSibling.url }}"><i class="fa fa-angle-left"></i> {{ 'BLOG.ITEM.PREV_POST'|t }}</a>
+    {% endif %}
+
+    {% if not page.isFirst %}
+        <a class="btn" href="{{ page.nextSibling.url }}">{{ 'BLOG.ITEM.NEXT_POST'|t }} <i class="fa fa-angle-right"></i></a>
+    {% endif %}
+</p>
+
+    </body>
+</html>

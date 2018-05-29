@@ -1,0 +1,550 @@
+/*------------------------------------*\ 
+       DaVita.com Reskin Styles
+\*------------------------------------*/
+
+
+/* Fonts */
+
+@font-face {
+	font-family: "Lato";
+	src: url("fonts/Lato-Regular.eot");
+	src: url("fonts/Lato-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/Lato-Regular.woff2") format("woff2"), url("fonts/Lato-Regular.woff") format("woff"), url("fonts/Lato-Regular.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Lato-Bold";
+	src: url("fonts/Lato-Bold.eot");
+	src: url("fonts/Lato-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/Lato-Bold.woff2") format("woff2"), url("fonts/Lato-Bold.woff") format("woff"), url("fonts/Lato-Bold.ttf") format("truetype");
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Bree-Bold";
+	src: url("fonts/BreeDavita-Bold.eot");
+	src: url("fonts/BreeDavita-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/BreeDavita-Bold.woff2") format("woff2"), url("fonts/BreeDavita-Bold.woff") format("woff"), url("fonts/BreeDavita-Bold.ttf") format("truetype");
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+  	font-family: "DavitaIcons-Regular";
+	src: url("fonts/DavitaIcons-Regular.eot");
+	src: url("fonts/DavitaIcons-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/DavitaIcons-Regular.woff2") format("woff2"), url("fonts/DavitaIcons-Regular.woff") format("woff"), url("fonts/DavitaIcons-Regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* DVA Custom Icons */
+
+.di {
+	font: normal normal normal 14px "DavitaIcons-Regular";
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+.di-lg {
+    font: normal normal normal 18px "DavitaIcons-Regular";
+}
+.di-2x {
+	font-size: 24px;
+}
+.di-3x {
+	font-size: 32px;
+}
+.di-4x {
+	font-size: 46px;
+}
+.di-5x {
+	font-size: 60px;
+}
+
+    /* A */
+    /* B */
+    /* C */
+    .di.di-calendar:before {
+        content: "\E378";
+    }
+    .di.di-check:before {
+        content: "\2713";
+    }
+    .di.di-chef-hat:before {
+        content: "\E689";
+    }
+    .di.di-computer-line-chart:before {
+        content: "\E304";
+    }
+    .di.di-cup-straw:before {
+        content: "\E001";
+    }
+    /* D */
+    /* E */
+    /* F */
+    .di.di-file-checklist:before {
+        content: "\E491";
+    }
+    .di.di-file-text:before {
+        content: "\E497";
+    }
+    /* G */
+    /* H */
+    .di.di-heart:before {
+        content: "\E120";
+    }
+    /* I */
+    /* J */
+    /* K */
+    /* L */
+    .di.di-line-chart:before {
+        content: "\E901";
+    }
+    /* M */
+    .di.di-minus:before {
+        content: "\2212";
+    }
+    /* N */
+    /* O */
+    /* P */
+    .di.di-plus:before {
+        content: "\E028";
+    }
+    .di.di-print:before {
+        content: "\1F5A8";
+    }
+    /* Q */
+    .di.di-question-mark-circle:before {
+        content: "\003F";
+    }
+    /* R */
+    /* S */
+    .di.di-search:before {
+        content: "\E026";
+    }
+    .di.di-spoon-fork-knife:before {
+        content: "\E678";
+    }
+    /* T */
+    /* U */
+    /* V */
+
+/* Headings */
+
+
+/*Further Reading: http:/csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css/ */
+p {
+  	color: #414141;
+}
+
+h1, .h1, .alpha {
+	line-height: 1.2;
+	color: #414141;
+	font-family: "Bree-Bold", sans-serif;
+	font-size: 28px;
+}
+h2, .h2, .beta {
+	line-height: 1.2;
+	color: #414141;
+	font-family: "Bree-Bold", sans-serif;
+	font-size: 24px;
+}
+h3, .h3, .gamma {
+	line-height: 1.2;
+	color: #414141;
+	font-family: "Bree-Bold", sans-serif;
+	font-size: 20px;
+}
+@media (min-width: 768px) {
+	h3, .h3, .gamma {
+		font-size: 24px;
+	}
+}
+h4, .h4, .delta {
+	color: #414141;
+	font-family: "Open Sans", "sans-serif";
+	font-size: 15px;
+	font-weight: 600;
+}
+@media (min-width: 768px) {
+	h4, .h4, .delta {
+		font-size: 17px;
+	}
+}
+.p-l-0 {
+	padding-left: 0px;
+}
+.p-r-0 {
+    padidng-right: 0px;
+}
+.p-t-5 {
+	padding-top: 5px;
+}
+.p-t-10 {
+	padding-top: 10px;
+}
+.p-t-15 {
+	padding-top: 15px;
+}
+.p-b-5 {
+	padding-bottom: 5px;
+}
+.p-b-10 {
+	padding-bottom: 10px;
+}
+.m-b-5 {
+	margin-bottom: 5px;
+}
+.m-b-10 {
+	margin-bottom: 10px;
+}
+.m-b-20 {
+	margin-bottom: 20px;
+}
+h1.phone-number {
+	font-size: 26px;
+	color: #0069b1;
+}
+h3.recipe-title {
+	font-family: "Open Sans", "sans-serif";
+	font-size: 21px;
+}
+.sign-in h1 {
+	font-family: "Bree-Bold", "sans-serif";
+}
+
+/* Content Categories */
+
+.education-content {
+	color: #d20f55;
+}
+.diet-nutrition-content {
+	color: #85b20a;
+}
+.treatment-services-content {
+	color: #283764;
+}
+.tools-content {
+	color: #641980;
+}
+.mydavita-content {
+	color: #128094;
+}
+.education-content-bg {
+	background-color: #d20f55;
+}
+.diet-content-bg {
+	background-color: #608107;
+}
+.treatment-services-content-bg {
+	background-color: #283764;
+}
+.tools-content-bg {
+	background-color: #2b143f;
+}
+.mydavita-content-bg {
+	background-color: #128094;
+}
+
+.ks-content-bg {
+	background-color: red;
+}
+
+.gold-content-bg {
+	margin-top: 5px;
+	background-color: #FFA81E;
+}
+
+/*==========  Primary Buttons (blue) ==========*/
+
+.btn {
+	padding: 9px 15px;
+	white-space: normal;
+}
+.btn-default, .btn-default:visited, .btn-primary, .btn-primary:visited {
+	background-color: #0069b1;
+	color: #fff;
+}
+.btn-default, .btn-default:visited, .btn-primary, .btn-primary:visited {
+	background-color: #0069b1;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+.btn-default:hover, .btn-default:focus, .btn-primary:hover, .btn-primary:focus {
+	background-color: #005a98;
+	color: #fff;
+}
+.btn-default:active, .btn-default.active, .btn-primary:active, .btn-primary.active {
+	color: #fff;
+}
+.sign-in .btn-primary {
+	background-color: #0069b1 !important;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+/*==========  Secondary Buttons ==========*/
+
+.btn-secondary, .btn-secondary:visited {
+	background-color: #004a80;
+	color: #fff;
+}
+.btn-secondary:hover, .btn-secondary:focus {
+	background-color: #034372;
+	color: #fff;
+}
+.nav-primary-footer .btn-secondary, .btn-secondary:visited {
+	background-color: #0069b1;
+	color: #fff;
+}
+.nav-primary-footer .btn-secondary:hover, .nav-primary-footer .btn-secondary:focus {
+	background-color: #005a98;
+}
+.header-main .navbar-utility .btn-secondary {
+	background-color: #128094;
+	color: #ffffff;
+}
+
+/* Promo Boxes */
+
+.promo-tile {
+	color: #ffffff;
+	margin: 15px 0px 25px 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	min-height: 230px;
+}
+@media (max-width: 1024px) {
+	.promo-tile {
+		min-height: 290px;
+	}
+}
+@media (max-width: 767px) {
+	.promo-tile {
+		margin-bottom: 0px;
+		margin-top: 0px;
+	}
+}
+.promo-tile h3 {
+	color: #ffffff;
+	margin: 0px 20px 0px 0px;
+	padding: 18px 0px 16px 0px;
+}
+.promo-tile p {
+	color: #ffffff;
+}
+.promo-tile-header-tools {
+	background-color: #641980;
+	padding-left: 38px;
+}
+.promo-tile-header-diet {
+	background-color: #85b20a;
+	padding-left: 38px;
+}
+
+.promo-tile-header-education {
+	background-color: #D20F55;
+	padding-left: 38px;
+}
+.promo-tile-header-ks {
+	background-color: #d20f55;
+	padding-left: 20px;
+}
+
+
+
+.ks-content-bg {
+	background-color: #efefef;
+}
+
+/* Highlight Content Well */
+
+.highlight-content-well {
+	background-color: #dfdfdf;
+	PADDING: 12px 14px;
+	MARGIN-BOTTOM: 22px;
+}
+.content-well-header {
+	font-weight: 600;
+	margin: 0;
+	padding: 0;
+	color: #505050;
+}
+.highlight-content-well p {
+	PADDING-BOTTOM: 0px;
+	LINE-HEIGHT: 20px;
+	margin-top: 6px;
+}
+/*@media (max-width: 1023px) {
+	.promo-tile-header-tools, .promo-tile-header-diet, .promo-tile-header-ks {
+		min-height: 100px;
+	}
+}
+*/
+.promo-tile-box {
+	padding-left: 38px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+.promo-tile-box a {
+	color: #fff;
+}
+.btn.btn-primary.btn-new {
+	background-color: #0069b1 !important;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+.promo-tile-box .btn-box {
+	background-color: transparent;
+	border: 2px solid #fff;
+}
+.promo-tile-box button:hover {
+	background: rgb(178, 178, 178);
+	/*fall back for browsers that don't support rgba*/
+	background: rgba(0, 0, 0, 0.3);
+	/*RGBa opacity level 0.3*/
+	color: #fff;
+}
+.promo-tile-box-ks {
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
+}
+.promo-tile-box-ks p, .promo-tile-box-ks label {
+	color: #505050;
+}
+.promo-tile-box-ks .btn-education {
+	color: #d20f55;
+	background-color: transparent;
+	border: 2px solid #d20f55;
+	width: 164px;
+}
+
+/* Right rail promo boxes */
+
+.promo-tile-box-r-rail {
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+.promo-tile-box-r-rail a {
+	color: #fff;
+}
+.promo-tile-box-r-rail p {
+	padding-bottom: 12px;
+}
+.promo-tile-box-r-rail button:hover {
+	background: rgb(178, 178, 178);
+	/*fall back for browsers that don't support rgba*/
+	background: rgba(0, 0, 0, 0.3);
+	/*RGBa opacity level 0.3*/
+	color: #fff;
+}
+.promo-tile-header-diet-r-rail {
+	background-color: #85b20a;
+	padding-left: 10px;
+}
+.promo-tile-header-diet-r-rail h3 {
+	font-size: 20px;
+}
+@media (max-width: 1023px) {
+	.promo-tile-header-diet-r-rail {
+		min-height: 50px;
+	}
+}
+.promo-tile-box-r-rail .download_copy_secondary {
+	color: #ffffff;
+	margin-top: 0px;
+}
+.dv-blue-1 {
+	background: #004a80;
+	color: #fff;
+}
+.dv-blue-1 h1, .dv-blue-1 h2, .dv-blue-1 h3, .dv-blue-1 h4, .dv-blue-1 h5, .dv-blue-1 p {
+	color: #fff;
+}
+.dv-blue-1 a, .dv-blue-1 a:visited {
+	color: #fff;
+}
+.dv-blue-2 {
+	background: #0072bc;
+	color: #fff;
+}
+.dv-blue-2 h1, .dv-blue-2 h2, .dv-blue-2 h3, .dv-blue-2 h4, .dv-blue-2 h5, .dv-blue-2 p {
+	color: #fff;
+}
+.dv-blue-2 a, .dv-blue-2 a:visited {
+	color: #fff;
+}
+.dv-blue-3 {
+	background: #107fc9;
+	color: #fff;
+}
+.dv-blue-3 h1, .dv-blue-3 h2, .dv-blue-3 h3, .dv-blue-3 h4, .dv-blue-3 h5, .dv-blue-3 p {
+	color: #fff;
+}
+.dv-blue-3 a, .dv-blue-3 a:visited {
+	color: #fff;
+}
+
+/* CTA buttons */
+
+.right-rail-cta h4, .content-cta h4 {
+	color: #505050;
+}
+.wf_download_cta {
+	background-color: #85b20a !important;
+}
+.wf_download_cta:hover {
+	background-color: #79a33a;
+}
+
+/*Modal Intercept*/
+.intercept-mobile { 
+	background-color: #f04e57;
+	min-height: 100px;
+	width: 100%;
+	padding: 20px;
+}
+
+.intercept-mobile h1 {
+	font-family: "Lato-Bold", sans-serif;
+	color: #FFF;
+	padding-bottom: 0px;
+	line-height: 1.3em;
+	font-size: 44px;	
+	text-transform: uppercase;
+}
+
+
+.intercept-mobile p { 
+	font-color: #222a32;
+	font-weight: bold;
+}
+
+.mobile-cta {
+	background-color: #FFF;
+	min-height: 80px;
+	color: #222a32;
+}
+
+.mobile-cta p {
+	padding: 20px;
+	font-weight: bold;
+	margin-right: 20px;
+}
+
+.intercept-btn {
+	background-color: #04d0b7 !important;
+	color: #FFF !important;
+	padding: 8px 15px !important;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 5px;
+	position: absolute;
+	bottom: 20;
+	right: 0;
+	float: right;
+}
+

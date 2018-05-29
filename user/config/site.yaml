@@ -1,0 +1,17 @@
+title: 'DaVita Brasil'
+default_lang: pt
+author:
+  name: 'Joe Bloggs'
+  email: joe@test.com
+taxonomies:
+  - category
+  - tag
+metadata:
+  description: 'DaVita Brasil'
+summary:
+  enabled: true
+  format: short
+  size: 300
+  delimiter: '==='
+blog:
+  route: /blog

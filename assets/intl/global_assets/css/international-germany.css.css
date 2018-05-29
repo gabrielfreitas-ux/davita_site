@@ -1,0 +1,693 @@
+/*------------------------------------*\ $VARIABLES
+\*------------------------------------*/
+/*------------------------------------*\ $MIXINS
+\*------------------------------------*/
+/*------------------------------------*\ $DaVita Health Solutions Microsite
+\*------------------------------------*/
+
+
+/* Fonts */
+
+@font-face {
+	font-family: "Lato";
+	src: url("/css/fonts/Lato-Regular.eot");
+	src: url("/css/fonts/Lato-Regular.eot?#iefix") format("embedded-opentype"), url("/css/fonts/Lato-Regular.woff2") format("woff2"), url("/css/fonts/Lato-Regular.woff") format("woff"), url("/css/fonts/Lato-Regular.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato-Bold";
+	src: url("/css/fonts/Lato-Bold.eot");
+	src: url("/css/fonts/Lato-Bold.eot?#iefix") format("embedded-opentype"), url("/css/fonts/Lato-Bold.woff2") format("woff2"), url("/css/fonts/Lato-Bold.woff") format("woff"), url("/css/fonts/Lato-Bold.ttf") format("truetype");
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Bree-Bold";
+	src: url("/css/fonts/BreeDavita-Bold.eot");
+	src: url("/css/fonts/BreeDavita-Bold.eot?#iefix") format("embedded-opentype"), url("/css/fonts/BreeDavita-Bold.woff2") format("woff2"), url("/css/fonts/BreeDavita-Bold.woff") format("woff"), url("/css/fonts/BreeDavita-Bold.ttf") format("truetype");
+	font-weight: 700;
+	font-style: normal;
+}
+
+
+p {
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.4;
+}
+
+body, html {
+	height: 100%;
+	width: 100%;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	line-height: 1.4;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	background-color: #fff;
+}
+
+h1,h2, h3 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+@media (max-width: 768px) {
+  h2 { font-size: 26px !important; }
+}
+
+h4,h5,h6 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3 {
+	margin: px 0 30px 0;
+	line-height: 1.3;
+}
+
+h4, h5, h6 {
+	margin: 15px 0;
+	line-height: 1.3;
+}
+
+h1 {
+	font-size: 54px;
+}
+h2 {
+	font-size: 33px;
+}
+h3 {
+	font-size: 21px;
+}
+h4 {
+	font-size: 18px;
+}
+h5 {
+	font-size: 14px;
+}
+h6 {
+	font-size: 12px;
+}
+
+h2.section-title {
+	font-size: 26px;
+}
+
+.primary-footer li {
+    font-size: 12px;
+    text-align: left;
+}
+
+.secondary-footer img {
+	margin-bottom: 10px;
+}
+
+.lang-toggle {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.featured-content .col-md-9 {
+	display: table;
+	height: 70px;
+}
+
+.featured-content p{
+	display: table-cell;
+	padding-top:20px;
+	margin-top:20px;
+}
+
+.featured-content h3 {
+	display: table-cell;
+	vertical-align: bottom;
+}
+
+a {
+	font-weight: 400;
+	color: #107fc9;
+	text-decoration: none;
+}
+
+.highlight-number {
+	font-weight: bold;
+	color: #283764;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	line-height:1.15;
+}
+
+.section-title {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.text-center p {
+	font-size: 14px;
+}
+
+.featured-content ul {
+	list-style-type: none;
+	padding-left: 0;
+	margin-left: 0;
+}
+
+.dv-location-title a {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.dv-location-title {
+	padding-bottom: 0px;
+}
+
+address {
+	font-size: 15px;
+	margin-bottom: 20px;
+	font-style: normal;
+	line-height: 1.42857143;
+}
+
+.border-right { border-right: 1px solid #ccc; padding-top:20px;}
+
+.border-top { border-top: 1px solid #dfdfdf; padding-top:20px;}
+
+.p-l-0 {
+	padding-left: 0;
+}
+
+.p-r-0 {
+	padding-right: 0;
+}
+
+.p-t-20 {
+	padding-top: 20px;
+}
+
+
+.m-b-25 {
+	margin-bottom: 25px;
+}
+
+.m-t-20 {
+	margin-top: 20px;
+}
+
+.m-t-40 {
+	margin-top: 40px;
+}
+
+.m-t-50 {
+	margin-top: 50px;
+}
+
+hr {
+	color: red;
+	margin-top: 80px;
+	margin-bottom: 40px;
+	border-top: 1px solid #dfdfdf;
+}
+
+.all-caps p {
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height:110%;
+	font-size: 16px;
+}
+
+.cs-icon-container {
+	margin-top: 14px;
+}
+
+.cs-icon-container .all-caps {
+	display: table;
+	height: 54px;
+	padding-left: 5px;
+	padding-top: 12px;
+}
+
+.cs-icon-container p {
+	display: table-cell;
+	vertical-align: middle;
+	font-size:17px;
+  }
+
+.bottom-align {
+	display: table-cell; 
+	vertical-align: bottom; 
+	height: 136px; 
+}
+
+/* Hero */
+
+.lt-ie10 .wod-hero { overflow: hidden; margin-bottom: 0px; height: 420px; background: url("/images/landing/davita-health-solutions/dhs-band-hero-1.jpg") no-repeat right center; }
+
+.wod-hero { 
+	overflow: hidden; 
+	margin-bottom: 0; 
+	background: url("/images/landing/davita-health-solutions/dhs-band-hero-02-mobi.jpg") no-repeat right center; 
+	background-size: 100%; 
+	background-size: cover; 
+	min-height: 210px; 
+}
+
+.wod-hero-text { 
+	margin: 70px 0 70px 0; 
+	min-height: 70px;
+	padding: 15px;
+	text-shadow: rgba(0, 0, 0, 0.3) 0px 3px 4px;
+	max-width: 500px;
+}
+
+.wod-hero-text h1 { 
+	color: #FFF; 
+	font-size: 31px; 
+	line-height: 1.1;
+	margin-bottom: 20px;
+}
+
+.wod-hero-text p {
+    font-size: 16px;
+	color: #FFF;
+}
+
+
+@media (min-width: 768px) { 
+.wod-hero { 
+	background: url("/images/landing/davita-health-solutions/dhs-band-hero-1.jpg")  no-repeat right center; 
+	margin-bottom: 0px; 
+	height: 440px; 
+
+} 
+.wod-hero-text { 
+	margin: 40px 0 40px 0; 
+} 
+.wod-hero-text h1 { 
+	font-size: 50px;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.1;
+} 
+}
+
+@media (min-width: 1025px) { 
+.wod-hero { 
+	background-size: 100%; 
+	} 
+}
+
+@media (max-width: 768px) { 
+.full-width-image {
+	height: 250px;
+	background: url("/images/landing/davita-health-solutions/medical-professionals-in-hallway-mobi.jpg") no-repeat right center; 
+}
+
+.full-width-image-2 {
+	height: 250px;
+	background: url("/images/landing/davita-health-solutions/patient-and-caregiver-mobi.jpg") no-repeat left center; 
+}
+}
+
+
+/* Diabetologie Hero */
+
+.lt-ie10 .diabetologie-hero { 
+	overflow: hidden; 
+	margin-bottom: 0px; 
+	height: 400px; 
+	background: url("/images/international/de/hero/diabetologie-band-hero-1.jpg") no-repeat top center; 
+}
+
+.diabetologie-hero {
+	overflow: hidden; 
+	margin-bottom: 0; 
+	background: url("/images/international/de/hero/diabetologie-band-hero-02-mobi.jpg") no-repeat top center; 
+	background-size: 100%; 
+	background-size: cover; 
+	height: 200px;
+	box-shadow:inset 0 0 0 2000px rgba(240,232,229,0.5);
+}
+
+.diabetologie-hero-text { 
+	margin: 20px 0 20px 0; 
+}
+
+.diabetologie-hero-text h1 { 
+	color: #00A8E4; 
+	font-family: "Bree-Bold", Helvetica, sans-serif;
+	font-size: 30px; 
+	line-height: 1.1;
+}
+
+.diabetologie-hero-text p {
+    font-size: 21px;
+	color: #505050;
+	font-family: "Lato";
+	line-height: 1.3;
+}
+
+@media (min-width: 768px) { 
+.diabetologie-hero { 
+	background: url("/images/international/de/hero/diabetologie-band-hero-1.jpg") no-repeat top center; 
+	margin-bottom: 0px; 
+	height: 400px; 
+	box-shadow: none;
+} 
+
+.diabetologie-hero-text h1 { 
+	font-size: 40px;
+	font-family: "Bree-Bold", Helvetica, sans-serif;
+	line-height: 1.1;
+} 
+}
+
+@media (min-width: 1025px) {
+.diabetologie-hero {
+	background-size: 100%;
+}
+.diabetologie-hero-text { 
+	margin: 38px 0 38px 0; 
+} 
+.diabetologie-hero-text h1 { 
+	font-size: 46px;
+	font-family: "Bree-Bold", Helvetica, sans-serif;
+	line-height: 1.1;
+} 
+}
+
+/* Cardilogy Hero */
+
+.lt-ie10 .cardiology-hero { 
+	overflow: hidden; 
+	margin-bottom: 0px; 
+	height: 400px; 
+	background: url("/images/international/de/hero/cardiology-band-hero-1.jpg") no-repeat top right; 
+}
+
+.cardiology-hero {
+	overflow: hidden; 
+	margin-bottom: 0; 
+	background: url("/images/international/de/hero/cardiology-band-hero-02-mobi.jpg") no-repeat top right; 
+	background-size: 100%; 
+	background-size: cover; 
+	height: 200px;
+	box-shadow:inset 0 0 0 2000px rgba(240,232,229,0.5);
+}
+
+@media (min-width: 768px) { 
+.cardiology-hero { 
+	background: url("/images/international/de/hero/cardiology-band-hero-1.jpg") no-repeat top right; 
+	margin-bottom: 0px; 
+	height: 400px; 
+	box-shadow: none;
+} 
+}
+
+/* Nav */
+
+.logo {
+	padding-bottom:36px;
+}
+
+.logo .group-name {
+	position: relative; 
+	height: 88px;
+}
+
+.services-category {
+	position: absolute; 
+	bottom: 0;
+}
+
+.menu_div ul li a:hover {
+	color:#006;
+}
+
+.nav {
+	font-size: 16px;
+}
+
+#nav-primary ul li:hover > a {
+    color: #fff;
+    background: #004a80;
+    text-shadow: none;
+}
+
+.navbar-header {
+	padding-bottom:30px;
+}
+
+button.navbar-toggle  {
+	margin-top:24px;
+	margin-bottom: 0;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #505050;
+    font-weight: 600;
+	padding: 15px 15px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #283764;
+}
+
+.navbar-default .navbar-collapse {
+	margin-top:0px;
+}
+
+#nav-primary .navbar-nav > li > a {
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+
+#nav-mydavita .navbar-nav > li > a:hover { color: #004a80; }
+
+
+.menu_div ul li a:hover {
+	color:#006;
+}
+
+.menu_div ul li#active {
+    background:#BEB9B4;
+}
+
+
+@media only screen and (max-width: 1025px) { 
+.navbar {
+	padding-top: 10px;
+}
+}
+
+/* Content Rows */
+
+.wod-content-row { margin-bottom: 40px; padding-bottom: 40px; border-bottom: 1px solid #dddddd; }
+.wod-content-row ul { margin: 0 0 20px 15px; }
+.wod-content-row ul li { padding-bottom: 10px; }
+.wod-content-row .col-sm-6 { display: table; height: 290px; }
+@media (min-width: 1025px) { .wod-content-row .col-sm-6 { height: 400px; } }
+.wod-content-row .col-sm-6 .col-text { display: table-cell; vertical-align: middle; }
+
+.wod-img { position: relative; }
+.wod-img img { margin: 0px auto; max-width: 200px; }
+@media (min-width: 768px) { .wod-img img { max-width: 100%; margin: 0; } }
+.wod-img .img-caption { display: table; box-sizing: border-box; padding: 20px; position: absolute; background: #4d4d4d; width: 150px; height: 150px; border-radius: 50%; }
+@media (min-width: 1025px) { .wod-img .img-caption { width: 200px; height: 200px; } }
+.wod-img .img-caption p { display: table-cell; vertical-align: middle; text-align: center; margin: 0px; color: white !important; text-transform: italic; }
+.wod-img .img-caption-r { bottom: 0px; right: 0px; }
+.wod-img .img-caption-l { bottom: 0px; left: 0px; }
+
+.content-band-dark {
+    width: 100%;
+    background-color: #efefef;
+	padding: 45px 0px 45px 0px;
+}
+
+.content-band-light {
+    padding: 45px 0px 45px 0px;
+    background: #ffffff;
+	color: #414141;
+}
+
+.content-band {
+    padding: 45px 0px 45px 0px;
+}
+
+.regular-width-container {
+	color: #414141;	
+}
+
+h3 a:hover { 
+	color: #FFF;
+}
+
+.content-band-light li {
+	margin-bottom: 4px;
+}
+
+.featured-content {
+	padding: 25px 25px;
+}
+
+.featured-content ul, .featured-content li, .featured-content h4 {
+	color: #333333;
+}
+
+.content-band-dark h3 {
+	font-size: 20px;
+	line-height: 23px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Footer */
+
+.footer-main {
+	background-color: #2f3232;
+	padding-top: 40px;
+	padding-bottom:40px;
+}
+
+.footer-main p {
+	color: #fff;
+}
+
+.footer-main a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+/* Resources */
+
+.wod-resources { margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #dddddd; }
+
+.wod-social-icons { margin: 0px; list-style: none; font-size: 38px; display: table; }
+.wod-social-icons .delta { display: block; }
+@media (min-width: 768px) { .wod-social-icons .delta { display: table-cell; vertical-align: middle; padding-right: 10px; } }
+.wod-social-icons li { display: inline; margin-right: 5px; }
+@media (min-width: 768px) { .wod-social-icons li { display: table-cell; padding-right: 5px; } }
+
+
+
+/* Popover */
+
+.tooltip { font-size:14px; padding:10px; }
+.tooltip-inner { padding:12px; text-align:left; }
+.tooltip.left .tooltip-inner {
+	background-color:#4D4D4D;
+}
+.tooltip.left .tooltip-arrow {
+	border-left-color: #4D4D4D;
+}
+
+/* Clinic Listings */
+
+.location-info {
+	margin-bottom: 58px;
+}
+		
+		
+/* Physician Bio */
+
+.bio-container {
+	height: auto;
+	min-height: 100%;
+    position: relative;
+    box-sizing: border-box;
+    background: #e9e9ea;
+    width: 100%;
+    padding: 20px 20px 40px 20px;
+    margin-bottom: 100px;
+}
+
+@media (min-width: 768px) {
+.bio-container {
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 100px;
+    min-height: 1050px;
+	position: relative;
+    box-sizing: border-box;
+    background: #e9e9ea;
+}
+}
+
+.bio-container .img-responsive { border-radius: 100px;}
+
+.bio-container img {
+    max-width: 150px;
+    margin-top: -100px;
+    margin-bottom: 15px;
+}
+
+.bio-row {
+    margin-top: 100px;
+}
+
+/* Germany Splash Page */
+
+
+.container-fluid .logo-wrapper {
+	padding-top:40px;
+	padding-bottom:30px;
+	border-bottom: 1px solid #efefef;
+	background-color: #fff;
+}
+
+.container-fluid img {
+	margin-left:auto; 
+	margin-right:auto;
+	padding-bottom: 15px;
+}
+
+/*Typography Styles*/
+
+
+.nav-button {
+	background-color:#fff;
+	box-shadow: 0 2px 0 #d9d9d9;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: 700;
+	margin-top: 38px;
+	padding: 40px 0;
+	position:relative;
+	text-align: center;
+}
+
+.nav-button img {
+	margin: 0 auto;
+}
+
+.nav-button:hover {
+    -moz-box-shadow: 0px 4px 4px #D8D8D8;
+    -webkit-box-shadow: 0px 4px 4px #D8D8D8;
+	box-shadow: 0px 4px 4px #D8D8D8;
+	transition: box-shadow .3s ease-out;
+}
+
+@media (max-width:767px){
+.container-fluid .row {
+    padding-top: 20px;
+    padding-bottom: 5px;
+	padding-left:5px;
+	padding-right:5px;
+}
+.container {
+    margin-top: 0px;
+	padding-left:25px;
+	padding-right:25px;
+}
+.container .m-t-40 {
+	margin-top:0;
+}
+.container .m-b-20 {
+	margin-bottom:10px;
+}
+}
+
+.intro-paragraph {
+	margin-top:20px;
+}

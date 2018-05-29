@@ -1,0 +1,40 @@
+---
+title: 'O que é doença renal?'
+media_order: slide5.jpg
+taxonomy:
+    category:
+        - Doenças
+        - Dúvidas
+    tag:
+        - hemodiálise
+        - 'doença renal'
+        - doenças
+        - 'dúvidas sobre hemodiálise'
+slug: como-a-hemodialise-funciona-2
+blog_url: /blog
+show_sidebar: true
+show_breadcrumbs: true
+show_pagination: true
+---
+
+![](slide5.jpg)
+## O que é a doença renal crônica (DRC)?
+Rins saudáveis funcionam para remover o excesso de água e resíduos, ajudar a controlar a pressão arterial, manter o equilíbrio das substâncias químicas do corpo, manter os ossos fortes, informar o seu corpo para produzir glóbulos vermelhos e ajudar as crianças a crescer normalmente. A DRC ocorre quando os rins não são mais capazes de limpar as toxinas e resíduos do sangue e realizar as suas funções plenamente. Isso pode ocorrer subitamente ou ao longo do tempo.
+
+Uma das primeiras coisas que você deve saber é que a doença renal tem estágios. Saber o estágio da sua doença renal crônica (DRC) é importante para determinar o seu tratamento. A DRC tem cinco estágios, que vão da função renal praticamente normal (fase 1) à insuficiência renal ou doença renal terminal (DRT), que requer diálise ou transplante (estágio 5). No estágio 5, os rins funcionam abaixo de 10 a 15 por cento da sua capacidade normal. Entender em qual estágio você está vai ajudá-lo a aprender a gerenciar a sua doença renal adequadamente. Saiba mais sobre os estágios da DRC aqui.
+
+Na maioria dos casos, a DRT (estágio 5) ocorre após anos vivendo com a doença renal. A insuficiência renal aguda, que é um comprometimento súbito da função renal, é menos comum. Seja qual for o caso, quando você é diagnosticado com DRT precisa fazer diálise ou receber um transplante para continuar vivo. A DaVita oferece várias opções de tratamento que podem se adequar ao seu estilo de vida.
+
+Existem várias opções para o tratamento da DRT (estágio 5). O tratamento mais comum é a diálise. Se você e seu nefrologista concordam com um transplante renal como uma opção de tratamento, você pode solicitar a diálise enquanto aguarda na fila do transplante.
+
+## Entendendo os seus rins
+Entender como os rins funcionam é o primeiro passo para assumir o controle da sua saúde. Seguir uma dieta adequada para os seus rins, não fumar e controlar o diabetes, a hipertensão (pressão alta) e outras condições de saúde podem ajudar os seus rins a funcionar melhor e por mais tempo, mesmo quando você tem doença renal. Seus rins desempenham um papel muito importante na regulação da sua saúde geral. Eles compõem o sistema de filtragem do seu corpo, limpando os resíduos, eliminando o excesso de fluidos do seu corpo e produzindo uma série de substâncias químicas que são necessárias para o seu corpo funcionar.
+
+## Você ou alguém que você goste pode estar em risco de ter DRC?
+Os fatores de risco incluem:
+
+* Diabetes
+* Pressão alta
+* Doença cardiovascular
+* Histórico familiar de doença renal
+* Idade de 55 anos ou mais
